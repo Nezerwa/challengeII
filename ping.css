@@ -1,0 +1,240 @@
+ 
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .page{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .form{
+
+        flex-direction: column;
+    }
+    img{
+        height:190px;
+        width: 270px;
+    
+    }
+    .click{
+        margin-top: 10px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .logo{
+        margin-top: 30px;
+    }
+    .span{
+        font-size: 20px;
+    }
+    .footer{
+        margin-top: 500px;
+    }
+    
+
+    
+    
+    
+    
+  }
+
+    
+
+
+
+
+.logo{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.h1{
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    
+    
+
+
+
+}
+.p{
+
+text-align: center;
+font-size: 15px;
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 300;
+color:  hsl(0, 0%, 59%);
+margin-top: 10px;
+}
+.form{
+    text-align: center;
+    display: flex;
+
+    margin-top: 30px;
+    
+    
+    
+}
+.click{
+    
+    
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  hsl(223, 87%, 63%);
+    border:  solid hsl(223, 87%, 63%);
+    color: white;
+    margin-left: 15px;
+
+    
+
+
+}
+img{
+    position:relative;
+    margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.Copyright{
+
+    position: relative;
+    margin-top: 30px;
+    margin-right: 5px;
+
+    
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    
+
+}
+#facebook{
+    color:  hsl(223, 87%, 63%);
+
+ 
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border: 1px solid hsl(230, 20%, 94%);
+    height: 20px;
+    
+
+
+}
+#twitter{
+
+ 
+ color: hsl(223, 87%, 63%);
+ 
+ padding-left: 3px;
+ padding-right: 3px;
+ padding-top: 3px;
+ padding-bottom: 0px;
+ border-radius: 20px;
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-top: 2px;
+ border: 1px solid hsl(230, 20%, 94%);
+ height: 20px;
+ 
+}
+#instagram{
+  
+ 
+ 
+color:  hsl(223, 87%, 63%);
+padding-left: 3px;
+ padding-right: 3px;
+ padding-top: 3px;
+ padding-bottom: 0px;
+ border-radius: 20px;
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-top: 2px;
+ border: 1px solid hsl(230, 20%, 94%);
+ height: 20px;
+ 
+ 
+
+}
+.span{
+    font-size: 40px;
+    color: hsl(209, 33%, 12%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+}
+
+input{
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px ;
+    padding-left: 20px;
+    padding-right: 120px;
+    
+
+    color: hsl(0, 0%, 59%);
+    border:1px solid  hsl(0, 8%, 85%) ;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+
+    
+
+    
+}
+
+input[type=text]:focus{
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px ;
+    padding-left: 20px;
+    padding-right: 120px;
+    
+
+    color: hsl(0, 0%, 59%);
+    border:1px solid  hsl(0, 8%, 85%) ;  
+}
+
+
+#facebook:hover{
+    background-color: hsl(223, 100%, 88%);  cursor: pointer;
+}
+#instagram:hover{background-color: hsl(223, 100%, 88%);
+    border: solid hsl(223, 100%, 88%) ;  cursor: pointer;}
+#twitter:hover{background-color: hsl(223, 100%, 88%);
+    border: solid hsl(223, 100%, 88%) ;  cursor: pointer;}
+.click:hover{background-color: hsl(223, 100%, 88%);
+border: solid hsl(223, 100%, 88%) ;  cursor: pointer;}
+
+#caption{
+ color: hsl(354, 100%, 66%);
+}
+
