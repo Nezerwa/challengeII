@@ -93,3 +93,4 @@ const proudOfThisFunc = () => {
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Have fun building!** 🚀
+![ping](https://user-images.githubusercontent.com/88612346/131459147-92103d37-69d0-49dc-9624-52dded981632.png)
